@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página de Pingüinos - CONOCELOS</title>
+<style>
+  body {
+	font-family: Arial, sans-serif;
+	background-color: #ffffff;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	background-image: url(wallhaven-2y3xlg.jpg);
+  }
+  .container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: "Comic Sans MS", cursive;
+  }
+  .marquee {
+	background-color: #73C7E8;
+	padding: 10px;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+	color: #ffffff;
+	animation: marqueeAnimation 5s infinite alternate;
+	font-family: "Comic Sans MS", cursive;
+  }
+  @keyframes marqueeAnimation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(100%); }
+  }
+  .topics {
+    margin-top: 20px;
+  }
+  .topic {
+	margin-bottom: 40px;
+	color: #FFFFFF;
+  }
+  .topic-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #429abc;
+	margin-bottom: 10px;
+	font-family: "Comic Sans MS", cursive;
+  }
+  .topic-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .topic-text {
+	flex: 0 0 100%;
+	margin-bottom: 20px;
+	font-family: "Times New Roman", Times, serif;
+  }
+  .image-container {
+    flex: 0 0 calc(30% - 20px); 
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .image-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .border-dashed {
+    border: 3px dashed #FFA500; 
+  }
+  .border-double {
+    border: 3px double #FF69B4; 
+  }
+  .border-solid {
+    border: 3px solid #00CED1; 
+  }
+  .border-dotted {
+    border: 3px dotted #FF6347; 
+  }
+  .border-groove {
+    border: 3px groove #9370DB; 
+  }
+  .border-outset {
+    border: 3px outset #32CD32; 
+  }
+  .border-ridge {
+    border: 3px ridge #FFD700; 
+  }
+  .border-inset {
+    border: 3px inset #FF1493; 
+  }
+.container .index a {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+a:link {
+	color: #0099CC;
+}
+a:visited {
+	color: #00CCCC;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="marquee">CONOCELOS</div>
+  
+  <div class="index">
+    <h1>INICIO:<a id="inicio"></a> <a href="#topic1">Tema 1</a> <a href="#topic2">Tema 2</a> <a href="#topic3">Tema 3</a> <a href="#topic4">Tema 4</a> <a href="#topic5">Tema 5</a></h1>
+    <hr>
+  </div>
+  <h1 style="font-family: 'MS Serif', 'New York', serif">Para aprender más sobre los pingüinos, puedes ver este video:</h1>
+  
+  <h2><a href="https://youtu.be/K0p0E3LsuMU?si=fn0XWVXZp-dkpcU2" target="_blank">Ver video sobre pingüinos en YouTube</a>
+  </h2>
+  <hr>
+  <div class="topics">
+    <div class="topic" id="topic1">
+      <div class="topic-title">
+        <h1>Tema 1: INTRODUCCIÓN</h1>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+      <div class="topic-content">
+        <div class="topic-text">
+          <h2>Los pingüinos son aves marinas, no voladoras, que habitan exclusivamente en el hemisferio sur del planeta. Pertenecen a la familia Spheniscidae, la única del orden Sphenisciformes, y se caracterizan por haber adaptado sus alas para la natación y la captura de alimento bajo el agua, en lugar de volar. Estas aves evolucionaron a partir de un ancestro volador hace entre 10 y 40 millones de años, y el registro fósil más antiguo data de unos 55 millones de años. Actualmente se conocen alrededor de 18 especies vivas, agrupadas en seis géneros distintos.</h2>
+        </div>
+        <div class="image-container">
+          <img src="18ad67408761f12678462208c552fb31.jpg" alt="Imagen 1" width="564" height="557" class="border-dashed">
+        </div>
+        <div class="image-container">
+          <img src="e48b52eb7182b5c85515574c9b2f9680.jpg" alt="Imagen 2" class="border-double">
+        </div>
+        <div class="image-container">
+          <img src="45ec84bf1d501a84c37e90bbc8d16c6c.jpg" alt="Imagen 3" class="border-solid">
+        </div>
+      </div>
+    </div>
+    
+    <div class="topic" id="topic2">
+      <div class="topic-title">
+        <h1>Tema 2: SUS TAMAÑOS</h1>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+      <div class="topic-content">
+        <div class="topic-text">
+          <h2>Los pingüinos se distinguen por su tamaño variable, desde el Pingüino Azul de apenas 30 cm de altura hasta el Pingüino Emperador que puede alcanzar 1.40 metros y 40 kg de peso. Estas diferencias de tamaño se relacionan con la profundidad a la que pueden bucear, siendo el Emperador capaz de alcanzar hasta 500 metros de profundidad y permanecer sin respirar por 23 minutos.</h2>
+        </div>
+        <div class="image-container">
+          <img src="314895b65922aaac2000ab201d248a8c.jpg" alt="Imagen 4" class="border-dotted">
+        </div>
+        <div class="image-container">
+          <img src="6248ec21d55295a71bd61f2c36a29bac.jpg" alt="Imagen 5" class="border-groove">
+        </div>
+        <div class="image-container">
+          <img src="e83712d85edfe4ae934cd9f97ee1ace4.jpg" alt="Imagen 6" class="border-outset">
+        </div>
+      </div>
+    </div>
+    
+    <div class="topic" id="topic3">
+      <div class="topic-title">
+        <h1>Tema 3: SU CARÁCTER GREGARIO</h1>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+      <div class="topic-content">
+        <div class="topic-text">
+          <h2>Una característica fundamental de los pingüinos es su carácter gregario, congregándose en densas colonias para anidar, incubar y criar a sus polluelos. Sus nidos pueden ubicarse en diversos ambientes, desde desiertos y bosques hasta hielo y roca descubierta, e incluso en túneles subterráneos.</h2>
+        </div>
+        <div class="image-container">
+          <img src="ac918423003b49af8ab58710b3b7b73f.jpg" alt="Imagen 7" class="border-ridge">
+        </div>
+        <div class="image-container">
+          <img src="9480b0bf76a3545ffaa60c9170b69045.jpg" alt="Imagen 8" class="border-inset">
+        </div>
+        <div class="image-container">
+          <img src="c61e157c1bb4df389ba9893b7ba0ffcc.jpg" alt="Imagen 9" class="border-double">
+        </div>
+      </div>
+    </div>
+    
+    <div class="topic" id="topic4">
+      <div class="topic-title">
+        <h1>Tema 4: SU CONVIVENCIA CON OTROS PINGÜINOS</h1>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+      <div class="topic-content">
+        <div class="topic-text">
+          <h2>Estas aves se comunican a través de graznidos que les permiten reconocerse después de las largas jornadas de forrajeo en el mar. Además, presentan complejos rituales de cortejo y cuidado biparental de la cría, con un periodo de incubación que varía entre 33 y 62 días según la especie.</h2>
+        </div>
+        <div class="image-container">
+          <img src="676b4a6aaf0d8d5f657c8c4178bf6d0e.jpg" alt="Imagen 10" class="border-dashed">
+        </div>
+        <div class="image-container">
+          <img src="d0183a0f99afc4fbd73782f63470d098.jpg" alt="Imagen 11" class="border-solid">
+        </div>
+        <div class="image-container">
+          <img src="d33130c2b39085e8f43d6e2b3bf49683.jpg" alt="Imagen 12" class="border-solid">
+        </div>
+      </div>
+    </div>
+    
+    <div class="topic" id="topic5">
+      <div class="topic-title">
+        <h1>Tema 5: LA IMPORTANCIA DE ESTOS</h1>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+      <div class="topic-content">
+        <div class="topic-text">
+          <h2>Los pingüinos juegan un papel clave como indicadores del ecosistema antártico, ya que constituyen el 80% de la biomasa de vertebrados de esa región. Por lo tanto, su biología refleja muchos de los cambios ambientales que se producen, como el calentamiento global, la contaminación y la introducción de especies invasoras.</h2>
+        </div>
+        <div class="image-container">
+          <img src="dc0c2fd81fd3b25341a2529fe2d5623a.jpg" alt="Imagen 13" class="border-solid">
+        </div>
+        <div class="image-container">
+          <img src="7276d0e0e6c05b455da75c329a7ef8e7.jpg" alt="Imagen 14" class="border-dashed">
+        </div>
+        <div class="image-container">
+          <img src="232d2b8378e6aaba0f2ae4d5930bf9a2.jpg" alt="Imagen 15" class="border-double">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+

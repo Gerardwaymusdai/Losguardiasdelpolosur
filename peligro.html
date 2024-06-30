@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pingüinos en Peligro</title>
+    <style>
+        body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f8ff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-image: url(wallhaven-47qggv.jpg);
+        }
+        .marquee-container {
+            overflow: hidden;
+            background-color: #4a6c6f;
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 15s linear infinite;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+           url(file:///C|/Users/Usuario/Desktop/PRACTICA%20INTEGRADORA/wallhaven-47qggv.jpg);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+	font-size: 1.5em;
+	color: #000000;
+	margin-bottom: 20px;
+        }
+        .section p {
+	font-size: 1.2em;
+	color: #FFF;
+	margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            border: 5px solid #4a6c6f;
+            border-radius: 20px;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .image-container img::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 3px dashed #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 0 3px #4a6c6f, 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: -1;
+        }
+        .link-box {
+            background-color: #4a6c6f;
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .link-box a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+        .link-box img {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .link-box img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    body,td,th {
+	font-family: Arial, sans-serif;
+	color: #FFF;
+}
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="marquee">PINGÜINOS EN PELIGRO — PINGÜINOS EN PELIGRO — PINGÜINOS EN PELIGRO — PINGÜINOS EN PELIGRO — PINGÜINOS EN PELIGRO</div>
+    </div>
+    <div class="content">
+        <div class="section">
+            <h2>Impacto del Cambio Climático</h2>
+            <p>Los pingüinos enfrentan amenazas debido al cambio climático que afecta sus hábitats naturales. Aquí puedes aprender más sobre esta situación crítica.</p>
+          <p>El cambio climático está afectando negativamente a la mayoría de las especies de pingüinos en todo el mundo, especialmente a aquellas que habitan en las regiones antárticas y subantárticas. Algunos de los principales impactos son:</p>
+            <ul>
+              <li><strong>- Reducción de la cobertura y el espesor del hielo marino, dificultando la cría y alimentación de especies antárticas como el pingüino emperador y el pingüino de Adelia. Se proyecta que el pingüino emperador podría perder más del 90% de sus colonias para 2100 si continúan las tendencias actuales de calentamiento.</strong></li>
+              <li><strong>- Disminución de las poblaciones de krill, un alimento clave para muchas especies de pingüinos, debido a los cambios en los patrones oceánicos y de hielo. Esto ha provocado una reducción dramática de las poblaciones de pingüinos de Adelia en las últimas décadas.</strong></li>
+              <li><strong>- Aumento de la competencia por el alimento y desplazamientos más largos para obtenerlo debido a las olas de calor. Algunas especies como el pingüino de Galápagos se ven perjudicadas en su reproducción y alimentación por fenómenos climáticos.</strong></li>
+              <li><strong>- Amenaza de incendios en los hábitats de pingüinos de climas templados, a los que no identifican como peligro y de los que no huyen.</strong></li>
+              <li><strong>- Declive poblacional de hasta el 60-75% en especies como el pingüino barbijo y el pingüino de Adelia en la Antártida. En total, 12 de las 18 especies de pingüinos sufren un declive importante debido al cambio climático. El calentamiento global está provocando la disminución de las poblaciones de pingüinos en todo el mundo, especialmente en las regiones polares, debido a la pérdida de hábitat de hielo marino, la escasez de alimento y otros factores relacionados. Reducir sustancialmente las emisiones de gases de efecto invernadero es crucial para disminuir los riesgos para estas carismáticas aves marinas.</strong></li>
+            </ul>
+            <div class="image-container">
+                <img src="5df55e0cfa85fad2fd917e0af29d27ce.jpg" alt="Imagen 1">
+                <img src="2c8bf8a03af4cd7491012f5b1521553b.jpg" alt="Imagen 2">
+                <img src="a3fad9f7a3dd5e6f388da861266f8247.jpg" alt="Imagen 3">
+            </div>
+        </div>
+        <div class="link-box"><a href="https://www.globalpenguinsociety.org/index_es.html#:~:text=Global%20Penguin%20Society%20(GPS)%20es,del%20mundo%20y%20sus%20h%C3%A1bitats." target="_blank">Fundacion para ayudar</a>
+            <a href="https://www.travolucion.com/listing/rescate-y-liberacion-pinguinos/#:~:text=Se%20buscan%20amantes%20de%20los%20animales%20para,ping%C3%BCinos%20y%20otras%20aves%20marinas%20en%20el" target="_blank">Ayudar a rescate </a><a href="#"></a>
+            <img src="a59eecfc534f41e67fbef1f56d3495a0.jpg" alt="Enlace a más información">
+        </div>
+    </div>
+</body>
+</html>

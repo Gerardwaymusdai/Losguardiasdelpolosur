@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página</title>
+    <style>
+        body {
+	font-family: 'Arial', sans-serif;
+	background-color: #FFFFFF;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	overflow-x: hidden;
+	background-image: url(wallhaven-73rpwo.jpg);
+        }
+        .marquee {
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            font-family: 'Cursive', sans-serif;
+            font-size: 2em;
+            color: #ffffff;
+            background-color: #003399;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .marquee span {
+	display: inline-block;
+	padding-left: 100%;
+	animation: marquee 15s linear infinite;
+	font-family: "Arial Black", Gadget, sans-serif;
+        }
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+        .content {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            background-image: url(wallhaven-73rpwo.jpg);
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .content p {
+	font-size: 1.2em;
+	margin-bottom: 20px;
+	color: #003399;
+	font-family: "Arial Black", Gadget, sans-serif;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #003399;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    body,td,th {
+	font-family: Arial, sans-serif;
+	color: #FFF;
+}
+    .content ul li {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+    </style>
+</head>
+<body>
+    <div class="marquee"><span>QUE LOS CARACTERIZA COMO ESPECIE</span></div>
+    <div class="content">
+        <p>Los pingüinos se caracterizan por lo siguiente:</p>
+        <ul>
+          <li>Son aves bípedas que han perdido la capacidad de volar, pero son excelentes nadadores. Sus alas se han adaptado a la natación, convirtiéndose en aletas.</li>
+          <li>Pueden alcanzar velocidades de hasta 60 km/h en el agua y aguantar la respiración hasta 18 minutos, lo que los convierte en hábiles cazadores de peces, calamares y crustáceos.</li>
+          <li>Tienen un plumaje compuesto por tres capas que los aísla del frío, además de una gruesa capa de grasa bajo la piel, lo que les permite sobrevivir en los climas más fríos del hemisferio sur.</li>
+          <li>Son animales sociables que viven en grandes colonias y son conocidos por su monogamia.</li>
+          <li>Se comunican mediante graznidos que les permiten reconocerse entre sí.</li>
+          <li>La mayoría de las especies de pingüinos habitan en el hemisferio sur, con algunas excepciones como el pingüino de las Galápagos.</li>
+          <li>El pingüino emperador es la especie más grande, mientras que el pingüino azul es el más pequeño.</li>
+          <li>Tienen sentidos desarrollados, como una excelente visión tanto en el agua como en tierra, y se cree que poseen un buen sentido del olfato.</li>
+          <li>Pasan la mayor parte de su tiempo, hasta un 75%, en el agua, donde pueden sumergirse a grandes profundidades para alimentarse.        </li>
+        </ul>
+        <div class="image-container">
+            <img src="wallhaven-0pyre0.jpg" alt="Imagen 1">
+            <img src="wallhaven-01711g.jpg" alt="Imagen 2">
+            <img src="wallhaven-0qzl1r.jpg" alt="Imagen 3">
+            <img src="wallhaven-qdkq25.jpg" alt="Imagen 4">
+        </div>
+    </div>
+</body>
+</html>

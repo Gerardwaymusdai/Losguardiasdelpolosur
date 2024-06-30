@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Favoritos</title>
+    <style>
+        body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f8ff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background-image: url(wallhaven-q6g7k5.png);
+        }
+       .marquee-container {
+            overflow: hidden;
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .marquee {
+	display: inline-block;
+	white-space: nowrap;
+	animation: marquee 15s linear infinite;
+	font-family: Georgia, "Times New Roman", Times, serif;
+        }
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .content {
+	margin: 20px;
+	padding: 20px;
+	background-image: url(wallhaven-q6g7k5.png);
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+	font-size: 1.5em;
+	color: #000000;
+	margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 150px;
+            height: 150px;
+            border: 5px solid #3D7EC8;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+        }
+        .image-container img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .image-container img::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 3px dashed #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px #3D7EC8, 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: -1;
+        }
+    body,td,th {
+	font-family: Arial, sans-serif;
+	color: #000000;
+}
+    </style>
+</head>
+<body>
+    <div class="marquee">
+      <h1>MIS FAVORITOS</h1>
+    </div>
+    <div class="content">
+        <div class="section">
+          <embed src="Lana Del Rey - Say Yes To Heaven (Instrumental).mp3" width="314" height="60"></embed>
+          <h2><strong>4 Pingüinos más Grandes</strong></h2>
+            <ol>
+              <li>
+                <h2>Pingüino Emperador - hasta 1.2 m</h2>
+              </li>
+              <li>
+                <h2>Pingüino de los Ojos Amarillos - hasta 75 cm</h2>
+              </li>
+              <li>
+                <h2>Pingüino de Magallanes - hasta 70 cm</h2>
+              </li>
+              <li>
+                <h2>Pingüino de Humboldt - hasta 68 cm            </h2>
+              </li>
+            </ol>
+            <h2>&nbsp;</h2>
+            <div class="image-container">
+              <h2><img src="873ecfbf84061cf5b1f048fea7c99c04.jpg" alt="Imagen 1">
+                <img src="7bfb393d09059e42fea5747a8a54e931.jpg" alt="Imagen 2">
+                <img src="a254afd4a4d4c93ccaa9d826b3d87c20.jpg" alt="Imagen 3">
+                <img src="95c373adaf72a6e80edac25343477fb8.jpg" alt="Imagen 4">
+                <img src="5679f938bcc15fe90282b9d31349db46.jpg" alt="Imagen 5">
+              </h2>
+            </div>
+      </div>
+        <div class="section">
+            <h2 align="left">Pingüinos lindos            </h2>
+            <dl>
+              <dt>Pingüino Emperador</dt>
+              <dd>
+                <h2>Pingüino de Adelia</h2>
+              </dd>
+              <dt>Pingüino de Galápagos</dt>
+              <dd>
+                <h2>Pingüino Rey</h2>
+              </dd>
+              <dt>Pingüino de Magallanes            </dt>
+            </dl>
+            <div class="image-container">
+              <img src="f4eb0615f0b9e60761d3bdd218365c89.jpg" alt="Imagen 1">
+              <img src="33486b49a669b00d0777359105f2a14b.jpg" alt="Imagen 2">
+              <img src="d13aab6c3db6678ae7979f614abc26bb.jpg" alt="Imagen 3">
+              <img src="cc37bd85469e63a657092e5f8505fe87.jpg" alt="Imagen 4">
+              <img src="wallhaven-01711g.jpg" alt="Imagen 5" width="166" height="151">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

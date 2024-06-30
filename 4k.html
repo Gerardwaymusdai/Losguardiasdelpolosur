@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pingüinos 4K</title>
+    <style>
+        body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f0f8ff;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: url(wallhaven-4gjy8d.jpg);
+        }
+        .marquee {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: marquee 15s linear infinite;
+            font-family: 'Cursive', sans-serif;
+            font-size: 2em;
+            color: #ffffff;
+            background-color: #3DA1C8;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes marquee {
+            0% { transform: translate(100%, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+        @keyframes breathing {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .breathing {
+            animation: breathing 3s infinite;
+        }
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+        .content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .video-container {
+    position: relative;
+    padding-bottom: 20%; /* Reduce further for smaller size */
+    height: 0;
+    overflow: hidden;
+    max-width: 30%; /* Reduce further for smaller size */
+    background: #333;
+    border: 5px solid #fff; /* Adjusted for smaller size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    body,td,th {
+	font-family: Arial, sans-serif;
+	color: #FFF;
+}
+    </style>
+</head>
+<body>
+    <div class="marquee breathing">PINGÜINOS 4K</div>
+    <div class="content">
+        <p>Conoce a esta maravillosa especie desde el lugar donde estés en 4K.</p>
+        <h2>Les traigo un increíble video titulado "Penguins in 4K / Antartica". Aunque este video no es de mi autoría, lo recomiendo encarecidamente por su impresionante calidad y contenido. Disfruten de estas fascinantes imágenes de pingüinos en la Antártida, capturadas en gloriosa resolución 4K. ¡No se lo pierdan!</h2>
+        <p>&nbsp;</p>
+        <div class="video-container">
+          <iframe src="Penguins in 4K _ Antartica.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
